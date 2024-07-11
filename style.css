@@ -1,0 +1,285 @@
+.screen {
+  background-color: #f1f3f4;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.screen .div {
+  background-color: #f1f3f4;
+  width: 1000px;
+  height: 1284px;
+  position: relative;
+}
+
+.screen .footer {
+  position: absolute;
+  width: 1000px;
+  height: 268px;
+  top: 1016px;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.screen .contacts {
+  display: flex;
+  flex-direction: column;
+  width: 297px;
+  align-items: flex-start;
+  gap: 14px;
+  position: absolute;
+  top: 152px;
+  left: 55px;
+}
+
+.screen .mail {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "Lato", Helvetica;
+  font-weight: 400;
+  color: #00ace3;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.screen .phone {
+  position: relative;
+  align-self: stretch;
+  height: 48px;
+  font-family: "Lato", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .social-media-icons {
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+  position: absolute;
+  top: 195px;
+  left: 741px;
+}
+
+.screen .img {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+}
+
+.screen .bio-cottage-cheese {
+  position: absolute;
+  width: 1000px;
+  height: 665px;
+  top: 351px;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.screen .overlap-group {
+  position: relative;
+  width: 932px;
+  height: 665px;
+  left: 68px;
+}
+
+.screen .price-button {
+  position: absolute;
+  width: 92px;
+  height: 35px;
+  top: 589px;
+  left: 652px;
+  background-color: #ffeb39;
+  border-radius: 4px;
+}
+
+.screen .price-text {
+  position: absolute;
+  top: 6px;
+  left: 23px;
+  font-family: "Lato", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.screen .three-row {
+  display: inline-flex;
+  align-items: center;
+  position: absolute;
+  top: 421px;
+  left: 0;
+}
+
+.screen .minitvorog {
+  position: relative;
+  width: 188.36px;
+  height: 188.36px;
+  object-fit: cover;
+}
+
+.screen .minitvorog-2 {
+  margin-left: -60px;
+  position: relative;
+  width: 188.36px;
+  height: 188.36px;
+  object-fit: cover;
+}
+
+.screen .product-image {
+  position: absolute;
+  width: 614px;
+  height: 665px;
+  top: 0;
+  left: 318px;
+  object-fit: cover;
+}
+
+.screen .text {
+  display: flex;
+  flex-direction: column;
+  width: 684px;
+  height: 313px;
+  align-items: flex-start;
+  gap: 17px;
+  position: absolute;
+  top: 36px;
+  left: 34px;
+}
+
+.screen .h {
+  position: relative;
+  align-self: stretch;
+  height: 40px;
+  margin-top: -1px;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.screen .text-wrapper {
+  position: relative;
+  width: 400px;
+  height: 256px;
+  font-family: "Lato", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.screen .overlap {
+  position: absolute;
+  width: 1000px;
+  height: 351px;
+  top: 0;
+  left: 0;
+}
+
+.screen .header {
+  position: absolute;
+  width: 1000px;
+  height: 351px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.screen .overlap-2 {
+  position: relative;
+  width: 1000px;
+  height: 351px;
+}
+
+.screen .background {
+  position: absolute;
+  width: 1000px;
+  height: 267px;
+  top: 84px;
+  left: 0;
+  background-color: #d9faff;
+}
+
+.screen .h-2 {
+  position: absolute;
+  width: 564px;
+  top: 117px;
+  left: 102px;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 66px;
+  letter-spacing: 0;
+  line-height: 66px;
+}
+
+.screen .image-up {
+  position: absolute;
+  width: 310px;
+  height: 351px;
+  top: 0;
+  left: 690px;
+  object-fit: cover;
+}
+
+.screen .nav-bar {
+  position: absolute;
+  width: 1000px;
+  height: 84px;
+  top: 0;
+  left: 0;
+  background-color: #d9faff;
+}
+
+.screen .info-bar {
+  display: inline-flex;
+  align-items: center;
+  gap: 22px;
+  position: absolute;
+  top: 28px;
+  left: 102px;
+}
+
+.screen .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Lato", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 14px;
+  white-space: nowrap;
+}
+
+.screen .icon-search {
+  position: absolute;
+  width: 26px;
+  height: 33px;
+  top: 18px;
+  left: 923px;
+  object-fit: cover;
+}
+
+.screen .logo {
+  position: absolute;
+  width: 57px;
+  height: 55px;
+  top: 11px;
+  left: 19px;
+}
